@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<!-- 
+	FashionInsta
+	Author: Jay Lakhani
+	Date: 11/14/2020
+
+	Filename: fashioninsta.html
+	-->
+	<meta charset="utf-8" />
+	<title> FashionInsta </title>
+	<link href="homepage.css" rel="stylesheet" />
+ </head>
+
+ <body>
+	<header>
+        <img src="images/fashioninsta.jpeg" class="fi" alt="FashionInsta" />
+	
+    <div class="navbar">
+        <div class="dropdown">
+             <button class="dropbtn">Menu
+             <i class="fa fa-caret-down"></i>
+             </button>
+            <div class="dropdown-content">
+                <a href="fashioninsta.html">Home</a>
+                <a href="holiday.html">Holiday</a>
+                <a href="travel.html">Travel</a>
+                <a href="family.html">Family</a>
+                <a href="contact.html">Contact</a>
+                <a href="sign.html">Sign up/Sign in</a>
+            </div>
+        </div>
+     </div>
+    </header>
+	<h1>Reach out to me!</h1>
+     <div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
+    <h3>social media: @FashionInsta</h3>
+	
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted"> 
+<p> &copy; Jay Lakhani 2020 &nbsp; Terms of Service &nbsp; Privacy Statement</p></span>
+            </div>
+        </div>
+    </footer>
+ </body>
+</html>
+ <!-- DEVELOPER: Jay Lakhani, IS117-005, Fall 2020 ->

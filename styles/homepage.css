@@ -1,0 +1,164 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: cornflowerblue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+    
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+.holidayimg{
+    height: 500px;
+    width: 1425px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.holidayimg:hover{
+    opacity: 0.5;
+}
+
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+.travelimg{
+    height: 500px;
+    width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.travelimg:hover{
+    opacity: 0.5;
+}
+
+.familyimg{
+    height: 500px;
+    width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.familyimg:hover{
+    opacity: 0.5;
+}
+
+.fi{
+    height: 300px;
+    width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    text-align: center;
+    font-family: fantasy;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+html {
+background-color: azure;
+}
+
+.links{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    text-align: center;
+    font-family: fantasy;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#contact_form{
+    text-align: center;
+    font-family: fantasy;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.newarrival{
+    width: 200px;
+    height: 400px;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.old{
+    width: 200px;
+    height: 400px;
+    float: right;
+    padding-bottom: 10px;
+}
+/* DEVELOPER Jay Lakhani, IS117-005, Fall 2020 */
