@@ -161,4 +161,12 @@ p{
     float: right;
     padding-bottom: 10px;
 }
+
+.tab-content{
+    text-align: center;
+    font-family: fantasy;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
 /* DEVELOPER Jay Lakhani, IS117-005, Fall 2020 */
