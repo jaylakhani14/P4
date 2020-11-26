@@ -110,6 +110,7 @@ h1{
 }
 
 .fi{
+    position: center;
     height: 300px;
     width: 1425px;
     margin-left: auto;
